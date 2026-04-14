@@ -28,8 +28,18 @@ admebaasidega seotud sql kood ja konspektid
  
 
  ##Piirangud
+ ...
+1. Primary Key
+2. Foreign Key
+3. CHECK
+4. NOT NULL
+5. UNIQUE
+...
 
-1.
-  
+## Tabelivahelised seosed
+- üks - ühele (nt mees --naine)
+- üks-mitmele (õpilane käib erinevates õppeainetes)
+-  <img width="680" height="404" alt="{5E57B149-3B17-4EE6-9F5C-B5F7194493FD}" src="https://github.com/user-attachments/assets/2dce32a5-4f52-4d96-8a5f-a3bfc081ef33" />
 
-   
+- mitu . mitmele (nt õpilane - õpetaja)
+
