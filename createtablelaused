@@ -1,7 +1,7 @@
 create database Karelbaas;
 use Karelbaas;
 --tabeli loomine
-CREATE table opilane(
+CREATE  TABLE opilane(
 opilaneId int Primary Key identity (1,1),
 eesnimi varchar(25),
 perekonnanimi varchar(30) not null,
