@@ -3,7 +3,8 @@ admebaasidega seotud sql kood ja konspektid
 
 
 ###tunnis me kasutame admebaasihaldussüsteemid:
-1. SQL server management Stuudio (Sql Serveri haldamiseks)
+1. SQL server management Stuudio (Sql Serveri haldamiseks) <img width="610" height="582" alt="{2E0BA43E-227A-45E4-A25F-3A163C441FBF}" src="https://github.com/user-attachments/assets/494db810-698d-4b1d-8f8a-28ac8a2f563c" />
+
 2. XAMPP -phpmyAdmin (MariaDB andmebaas) -vabavara
 
    ## Põhimõisted
