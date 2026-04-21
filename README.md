@@ -77,3 +77,42 @@ END
 --kutse
 EXEC kustutaidJärgi 3;
 ```
+
+--iseseisvalt: vali tabel ja kirjuta 3 protseduuri.
+1.
+CREATE PROCEDURE uuendanimiproductis
+@id int,
+@uuendatudNimi varchar(20)
+AS
+BEGIN
+	SELECT * FROM products;
+	UPDATE products SET product_name=@uuendatudNimi
+	WHERE product_id=@id;
+	SELECT * FROM products;
+END
+
+EXEC uuendanimiproductis 2, 'WE makin it out'
+
+2.--protseduur, mis kustutab tabelist id järgi
+Create procedure  kustutatoode
+@id int
+AS
+BEGIN
+	SELECT * FROM products;
+	DELETE FROM  products WHERE product_id=@id;
+	SELECT * FROM products;
+END
+
+--kutse
+EXEC kustutatoode 4;
+
+--3.
+CREATE PROCEDURE otsimin
+@taht char(1)
+AS
+BEGIN
+	SELECT product_name FROM products
+	WHERE product_name LIKE @taht + '%';
+END
+-- kutse
+EXEC otsimin 't'
