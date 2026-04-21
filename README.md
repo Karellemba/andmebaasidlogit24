@@ -63,3 +63,17 @@ END
 --kutse
 EXEC LisaKategooria 'test';
 ```
+```sql
+--protseduur, mis kustutab tabelist id järgi
+Create procedure kustutaidJärgi
+@id int
+AS
+BEGIN
+	SELECT * FROM categories;
+	DELETE FROM categories WHERE category_id=@id;
+	SELECT * FROM categories;
+END
+
+--kutse
+EXEC kustutaidJärgi 3;
+```
