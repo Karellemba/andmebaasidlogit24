@@ -1,0 +1,32 @@
+select Id, dbo.CalculateAge(DateOfBirth) as Age,dbo.fnComputeAge(DateOfBirth) as age2 from EmployeesWithDates
+reate function dbo.CalculateAge(@DOB date)
+returns int
+as begin
+declare @Age int
+
+set @Age = DATEDIFF(YEAR, @DOB, GETDATE()) -
+	case
+		when (MONTH(@DOB) > MONTH(getdate())) or
+			 (MONTH(@DOB) > MONTH(GETDATE()) and DAY(@DOB) > day(GETDATE()))
+		then 1
+		else 0
+		end
+	return @Age
+end
+
+execute CalculateAge '10/08/2020'
+
+select Id, dbo.CalculateAge(DateOfBirth) as Age,dbo.fnComputeAge(DateOfBirth) as age2 from EmployeesWithDates
+where dbo.CalculateAge(DateOfBirth) > 36
+
+INSERT INTO EmployeesWithDates  (Id, Name, DateOfBirth)  
+VALUES (1, 'Sam', '1980-12-30 00:00:00.000');
+INSERT INTO EmployeesWithDates  (Id, Name, DateOfBirth)  
+VALUES (2, 'Pam', '1982-09-01 12:02:36.260');
+INSERT INTO EmployeesWithDates  (Id, Name, DateOfBirth)  
+VALUES (3, 'John', '1985-08-22 12:03:30.370');
+INSERT INTO EmployeesWithDates  (Id, Name, DateOfBirth)  
+VALUES (4, 'Sara', '1979-11-29 12:59:30.670');
+
+select * from EmployeesWithDates
+
