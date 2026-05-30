@@ -201,10 +201,9 @@ CREATE TABLE Kasutajad (
 ---
 
 ## Kasutatud allikad
-
-* https://www.w3schools.com/sql/
-* https://www.geeksforgeeks.org/dbms-keys-in-relational-database/
-* Õppematerjalid (tunnimaterjalid)
+https://www.w3schools.com/sql/
+[https://www.postgresql.org/docs/current/ddl-constraints.html?
+ Õppematerjalid (tunnimaterjalid)
 
  <img width="1751" height="773" alt="image" src="https://github.com/user-attachments/assets/498c889e-a065-4687-8cf7-cecafe66ef07" />
 <img width="1625" height="714" alt="image" src="https://github.com/user-attachments/assets/876d4869-fed1-4f01-b383-6acba84e969f" />
