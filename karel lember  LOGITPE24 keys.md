@@ -9,7 +9,7 @@ Primary Key on veeru (või veergude kombinatsiooni) väärtus, mis identifitseer
 Tagab, et tabelis ei ole duplikaate ja iga kirje on unikaalne.
 
 **Erinevus:**
-Ei tohi sisaldada NULL väärtusi ja peab olema unikaalne.
+Primary Key ei luba NULL väärtusi ja igas tabelis saab olla ainult üks Primary Key erinevalt Unique keyst.”
 
 **Näide:**
 
@@ -59,7 +59,7 @@ Unique Key tagab, et kõik väärtused veerus on unikaalsed.
 Kasutatakse siis, kui väärtused peavad olema kordumatud, kuid ei ole Primary Key.
 
 **Erinevus:**
-Võib sisaldada ühte NULL väärtust (olenevalt andmebaasist).
+Compound Key erineb Composite Key-st selle poolest, et kõik väljad on ka Foreign Key-d.
 
 **Näide:**
 
@@ -154,7 +154,7 @@ Võib sisaldada üleliigseid atribuute.
 **Näide:**
 
 ```text
-(liige_id, nimi) – still unique because liige_id is unique
+(liige_id, nimi) – on superkey, sest liige_id üksi juba määrab kirje
 ```
 
 ---
@@ -173,7 +173,7 @@ Ei sisalda üleliigseid atribuute.
 **Näide:**
 
 ```text
-liige_id ja email võivad mõlemad olla candidate key-d
+liige_id ja email võivad mõlemad olla candidate key-d, sest mõlemad on unikaalsed
 ```
 
 ---
