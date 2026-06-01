@@ -67,8 +67,6 @@ XAMPP / mariaDB päästikud / trigerid
 INSERT TRIGER
 <img width="528" height="567" alt="{6A1BD5C0-B232-4F97-99DF-772AF8ABEBF9}" src="https://github.com/user-attachments/assets/0c982f54-4d96-4170-ab5a-933507a10b80" />
 
-
-Kontrollimiseks {CB086B15-2895-4064-BF13-DE97E02033A8}
 Tulemus logi tabelist - 
 DELETE TRIGER
 <img width="424" height="243" alt="{34F2C093-2456-43A5-A597-EA7FEE19CC97}" src="https://github.com/user-attachments/assets/45e0b641-ff62-42b1-beff-4f131cb6aaa2" />
