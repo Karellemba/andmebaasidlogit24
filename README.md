@@ -1,4 +1,7 @@
-# andmebaasidlogit24
+# andmebaasid Karel portfoolio
+
+ | [küsimused](küsimused.md) | [Kasutaja loomine SQL Server](kasutaja.md) | [Triggerid](triger.md) | [Kodutöö - Keys](karel lember LOGITPE24 keys.md) | [updatekasutajad - Keys](update kasutaja.md) | [kodutöö - karel lember keys](karel lember LOGITPE24 keys.md)
+
 admebaasidega seotud sql kood ja konspektid
 
 - SQL - structured Query Language -struktureeritud päringukeel
