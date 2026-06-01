@@ -73,11 +73,4 @@ DENY INSERT ON puhkus TO directorKarel;
 <img width="593" height="487" alt="{FF161EE5-AA62-45AB-9C0E-9B3CAF53069D}" src="https://github.com/user-attachments/assets/44322c15-586e-4f5a-aff6-8fecd673e1a5" />
 Käsk Tähendus SELECT Lugemine INSERT Lisamine UPDATE Muutmine DELETE Kustutamine
 <img width="631" height="447" alt="{575E1BB4-58B1-4540-8980-175C26E31BE9}" src="https://github.com/user-attachments/assets/94b1c030-8c3c-4fdd-9bc8-20f10d3fe335" />
-Ülesanne 1: Luua andmebaas: MovieBase
-
-Luua tabelid:
-
-movies (id, moviesNimi, moviesYear, movieDir и movieCost). guest (id, name) Lisada vähemalt 7 kirjet.
-
-Luua kasutaja Produtsent parooliga director, kellel on järgmised õigused: Õigus vaadata ja uuendada tabeli movies välju movieDir ja movieCost + lisada üks enda valitud privileeg. Õigus vaadata ja lisada kirjeid tabelisse guest. Keela andmete kustutamine tabelis. Vihje! UPDATE õigused parem lubada SQL käsuga GRANT UPDATE (movieCost, movieDir) ON movies TO Produtsent;
 
