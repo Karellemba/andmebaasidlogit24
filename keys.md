@@ -1,3 +1,5 @@
+ | [küsimused](küsimused.md) | [KasutajaloomineXamppis](kasutajaloomineXamppis.md) | [trigger](trigger.md) | [keys](keys.md) | [kasutajaloomine_SQL](kasutajaloomine_SQL.md)
+
 # Andmebaasi võtmed (Keys)
 
 ## 1. Primary Key (Primaarvõti)
