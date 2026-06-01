@@ -2,8 +2,8 @@
 
 # andmebaasid Karel portfoolio
 
- | [küsimused](küsimused.md) | [Kasutaja loomine Xamppis](kasutaja loomine Xamppis.md) | [Triggerid](triger.md) | [Kodutöö - Keys](karel lember LOGITPE24 keys.md) | [updatekasutajad - Keys](update kasutaja.md) |
-
+ | [küsimused](küsimused.md) | [Kasutaja loomine Xamppis](kasutaja loomine Xamppis.md) | [Triggerid](triger.md) | [Kodutöö - Keys](karel lember LOGITPE24 keys.md) | [updatekasutajad - Keys](update kasutaja.md)
+ 
 admebaasidega seotud sql kood ja konspektid
 
 - SQL - structured Query Language -struktureeritud päringukeel
