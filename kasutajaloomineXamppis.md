@@ -1,6 +1,6 @@
 # andmebaasid Karel portfoolio kasutajate loomine Xamppis.
 
- | [küsimused](küsimused.md) | [KasutajaloomineXamppis](kasutajaloomineXamppis.md) | [trigger](trigger.md) | [keys](keys.md) | [kasutajaloomine_SQL](kasutajaloomine_SQL.md)
+ | [küsimused](küsimused.md) | [KasutajaloomineXamppis](kasutajaloomineXamppis.md) | [trigger](trigger.md) | [keys](keys.md) | [kasutajaloomineSQL](kasutajaloomineSQL.md)
 
 
 <img width="483" height="493" alt="{0B144A49-E9A9-4AD2-BCDB-8C9C324D3CFE}" src="https://github.com/user-attachments/assets/a2dfe2d8-9e72-4a62-8551-930190440643" />
