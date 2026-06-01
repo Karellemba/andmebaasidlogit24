@@ -47,7 +47,7 @@ db_datawriter → võib kirjutada INSERT, UPDATE, DELETE
 
 Kasutaja õiguste kontroll
 tuleb sisselogida kasutajana directorKarel. Connect--> Database Engine
-<img width="366" height="377" alt="{FA4710DF-1745-424B-A7F1-C6CFB6CCF005}" src="https://github.com/user-attachments/assets/a7222643-f30e-4ff7-8145-292efa2cc466" />
+
 saab tabeli sisu näha ja sisestada uus kiri.
 <img width="580" height="287" alt="{A70AF0D4-93DE-4879-ABC6-95705B141DA5}" src="https://github.com/user-attachments/assets/4986bd6b-0389-4501-a90c-1b3a1875d9e4" />
 kontrollime tegevus, mis ei ole lubatud kasutajale, näiteks tabeli loomine.
