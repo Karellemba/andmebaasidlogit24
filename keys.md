@@ -215,7 +215,6 @@ CREATE TABLE Kasutajad (
 ## Kasutatud allikad
 https://www.w3schools.com/sql/
 [https://www.postgresql.org/docs/current/ddl-constraints.html?
- Õppematerjalid (tunnimaterjalid)
 
 
 
