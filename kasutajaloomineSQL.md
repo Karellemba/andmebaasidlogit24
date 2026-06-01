@@ -47,7 +47,7 @@ Membership ja õigused Menüüst Membership saab määrata kasutaja rollid.
 db_datareader → võib lugeda SELECT
 
 db_datawriter → võib kirjutada INSERT, UPDATE, DELETE
-<img width="536" height="270" alt="{842B5AAA-D946-42C8-8ECF-83D37B11095D}" src="https://github.com/user-attachments/assets/be943481-40fb-4df4-b10a-d26567f1d75e" />
+<img width="777" height="769" alt="{4AB0CB9D-8C36-4DC7-8387-3621F19EAA47}" src="https://github.com/user-attachments/assets/8d540138-d95c-443e-87f4-b41b9f69e9b2" />
 
 Kasutaja õiguste kontroll
 tuleb sisselogida kasutajana directorKarel. Connect--> Database Engine
@@ -74,7 +74,8 @@ GRANT SELECT ON puhkus TO directorKarel;
 --keelame INSERT
 DENY INSERT ON puhkus TO directorKarel;
 
-<img width="593" height="487" alt="{FF161EE5-AA62-45AB-9C0E-9B3CAF53069D}" src="https://github.com/user-attachments/assets/44322c15-586e-4f5a-aff6-8fecd673e1a5" />
+<img width="556" height="418" alt="{77B17C36-21D0-4C5E-A2B6-A8CFB795DFDA}" src="https://github.com/user-attachments/assets/4ef52b1e-bc07-429d-95b0-26bc8991c33c" />
+
 Käsk Tähendus SELECT Lugemine INSERT Lisamine UPDATE Muutmine DELETE Kustutamine
 <img width="631" height="447" alt="{575E1BB4-58B1-4540-8980-175C26E31BE9}" src="https://github.com/user-attachments/assets/94b1c030-8c3c-4fdd-9bc8-20f10d3fe335" />
 
