@@ -2,7 +2,7 @@
 
 # andmebaasid Karel portfoolio
 
- | [küsimused](küsimused.md) | [KasutajaloomineXamppis](kasutajaloomineXamppis.md) | [Triggerid](triger.md) | [karel lember keys](karel lember keys.md) | [updatekasutajad](update kasutaja.md)
+ | [küsimused](küsimused.md) | [KasutajaloomineXamppis](kasutajaloomineXamppis.md) | [Triggerid](triger.md) | [karellemberkeys](karellemberkeys.md) | [updatekasutajad](update kasutaja.md)
  
 admebaasidega seotud sql kood ja konspektid
 
