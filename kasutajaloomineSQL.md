@@ -31,16 +31,17 @@ Serveritaseme kasutaja loomine (Login) Sammud Ava:
 Security → Logins Tee paremklikk ja vali:
 
 New Login...
-<img width="518" height="466" alt="{886F6179-F2A0-4283-B183-E20A3B54D871}" src="https://github.com/user-attachments/assets/ebb50eec-dc65-48ef-bdf1-970d8a19bcdb" />
+<img width="835" height="672" alt="{6A093429-03C1-47D8-B36F-B05869021CDE}" src="https://github.com/user-attachments/assets/004c3171-1b07-4fe2-b6f2-1522ee9a4623" />
+
 Harjutamiseks võib eemaldada linnukese: User must change password at next login.
 
 Server Roles Menüüst Server Roles saab määrata serveri üldised õigused.
 
 Tavaliselt piisab rollist: public
-<img width="459" height="468" alt="{F2A3905B-7BD1-40AE-A43A-A5EB1FA73CB0}" src="https://github.com/user-attachments/assets/91e2417d-a80e-4d22-9214-75d80cd32fff" />
+<img width="749" height="675" alt="{2F3F85D9-EEE3-479E-8140-332054B32D80}" src="https://github.com/user-attachments/assets/520409c1-9865-495c-8ee7-612ed9583042" />
+
 Andmebaasi kasutaja loomine (User) Ava:
 Database → Security → Users Tee paremklikk: New User...
-<img width="410" height="239" alt="{9D0B4571-5B3E-461F-B079-209E87EA64DC}" src="https://github.com/user-attachments/assets/c587b902-13f8-4ba9-b2c9-e23a7c3da65f" />
 Membership ja õigused Menüüst Membership saab määrata kasutaja rollid.
 
 db_datareader → võib lugeda SELECT
