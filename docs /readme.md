@@ -1,4 +1,4 @@
-# Andmebaaside Õpetaja portfoolio || LOGITpe24
+# Andmebaaside Õpilane karel lember portfoolio || LOGITpe24
 
 Andmebaasidega seotud SQL kood ja konspektid.
 
