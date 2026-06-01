@@ -1,3 +1,8 @@
+
+ | [küsimused](küsimused.md) | [KasutajaloomineXamppis](kasutajaloomineXamppis.md) | [trigger](trigger.md) | [keys](keys.md) | [kasutajaloomine_SQL](kasutajaloomine_SQL.md)
+
+
+
 Triger - andmebaasi objekt, mis käivitub automaatselt, kui toimub teatud sündmus (nt INSERT, UPDATE, DELETE).
 Trigerite loomine - automatseerub protsessid SQL Serveris.
 
