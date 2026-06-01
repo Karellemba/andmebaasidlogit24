@@ -21,7 +21,7 @@ Kasutajanimi ja parool on seotud Windowsiga. Turvalisem lahendus. Paroole haldab
 SQL Server Authentication
 Selle puhul luuakse kasutaja otse SQL Serverisse. Kasutaja ei ole seotud Windowsiga. Määratakse eraldi kasutajanimi ja parool. Sobib veebirakenduste jaoks.
 
-Näide kasutajast: DirectorIrina. Parool: director
+Näide kasutajast: DirectorKarel. Parool: director
 
 Kasutaja loomine SQL Serveris
 Serveritaseme kasutaja loomine (Login) Sammud Ava:
@@ -46,7 +46,7 @@ db_datawriter → võib kirjutada INSERT, UPDATE, DELETE
 <img width="536" height="270" alt="{842B5AAA-D946-42C8-8ECF-83D37B11095D}" src="https://github.com/user-attachments/assets/be943481-40fb-4df4-b10a-d26567f1d75e" />
 
 Kasutaja õiguste kontroll
-tuleb sisselogida kasutajana directorIrina. Connect--> Database Engine
+tuleb sisselogida kasutajana directorKarel. Connect--> Database Engine
 <img width="366" height="377" alt="{FA4710DF-1745-424B-A7F1-C6CFB6CCF005}" src="https://github.com/user-attachments/assets/a7222643-f30e-4ff7-8145-292efa2cc466" />
 saab tabeli sisu näha ja sisestada uus kiri.
 <img width="580" height="287" alt="{A70AF0D4-93DE-4879-ABC6-95705B141DA5}" src="https://github.com/user-attachments/assets/4986bd6b-0389-4501-a90c-1b3a1875d9e4" />
@@ -59,16 +59,16 @@ SQL Server Authentication Mode muutmine Kui ilmub viga: Error 18456, siis on tav
 --db_datareader -SELECT 
 --db_datawriter - INSERT, DELETE, UPDATE
 
---anname kasutajale directorIrina õigus 
+--anname kasutajale directorKarel õigus 
 --ainult kustutada ja uuendada tabelit 
 --(DELETE, UPDATE, SELECT)
 
-GRANT DELETE ON puhkus TO directorIrina;
-GRANT UPDATE ON puhkus TO directorIrina;
-GRANT SELECT ON puhkus TO directorIrina;
+GRANT DELETE ON puhkus TO directorKarel;
+GRANT UPDATE ON puhkus TO directorKarel;
+GRANT SELECT ON puhkus TO directorKarel;
 
 --keelame INSERT
-DENY INSERT ON puhkus TO directorIrina;
+DENY INSERT ON puhkus TO directorKarel;
 
 <img width="593" height="487" alt="{FF161EE5-AA62-45AB-9C0E-9B3CAF53069D}" src="https://github.com/user-attachments/assets/44322c15-586e-4f5a-aff6-8fecd673e1a5" />
 Käsk Tähendus SELECT Lugemine INSERT Lisamine UPDATE Muutmine DELETE Kustutamine
