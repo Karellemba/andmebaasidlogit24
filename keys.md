@@ -203,12 +203,18 @@ Ei ole Primary Key, kuid on siiski unikaalne.
 **Näide:**
 
 ```sql
-CREATE TABLE Kasutajad (
-    kasutaja_id INT PRIMARY KEY,
-    email VARCHAR(100) UNIQUE
+CREATE TABLE customers (
+    customer_number VARCHAR(20),
+    full_name VARCHAR(100),
+    email VARCHAR(100),
+    phone VARCHAR(20),
+
+    -- Alternate keys
+    CONSTRAINT uq_customer_number UNIQUE (customer_number),
+    CONSTRAINT uq_email UNIQUE (email)
 );
 ```
-<img width="456" height="350" alt="{B373DF62-939C-4F03-9D26-C50199F0B3BE}" src="https://github.com/user-attachments/assets/ab104f55-7e6e-411a-a61a-4e8cd2dd343c" />
+<img width="422" height="291" alt="{4F261398-2B25-4E01-937B-360FB2776336}" src="https://github.com/user-attachments/assets/76c711f2-d0ea-48bb-b77b-8f938db6b90c"/>
 
 ---
 
