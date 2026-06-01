@@ -1,4 +1,6 @@
- | [küsimused](küsimused.md) | [KasutajaloomineXamppis](kasutajaloomineXamppis.md) | [trigger](trigger.md) | [keys](keys.md) | [kasutajaloomineSQL](kasutajaloomineSQL.md) | [vaade](vaade.md)
+| [küsimused](küsimused.md) | [KasutajaloomineXamppis](kasutajaloomineXamppis.md) | [trigger](trigger.md) | [keys](keys.md) | [kasutajaloomineSQL](kasutajaloomineSQL.md) | [vaade](vaade.md)
+
+
 SQL Server – Kasutajate autentimine ja õiguste haldamine
 Mis on autentimine SQL Serveris?
 
