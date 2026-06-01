@@ -1,7 +1,6 @@
 # andmebaasid Karel küsimuste md fail.
 
- | [küsimused](küsimused.md) | [KasutajaloomineXamppis](kasutajaloomineXamppis.md) | [trigger](trigger.md) | [keys](keys.md) | [kasutajaloomineSQL](kasutajaloomineSQL.md)
-
+ | [küsimused](küsimused.md) | [KasutajaloomineXamppis](kasutajaloomineXamppis.md) | [trigger](trigger.md) | [keys](keys.md) | [kasutajaloomineSQL](kasutajaloomineSQL.md) | [vaade](vaade.md)
 
 <img width="1388" height="586" alt="{0DA0D9E2-8751-4B82-B546-D72886A728A1}" src="https://github.com/user-attachments/assets/2e2d9a73-8386-4359-8d72-a7b7cf57ee56" />
 <img width="1405" height="682" alt="{88C01001-9D36-4D64-BE91-8A584B7412CA}" src="https://github.com/user-attachments/assets/532b1946-a325-4583-a14a-08bf2786b8e9" />
