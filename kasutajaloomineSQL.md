@@ -53,7 +53,8 @@ Kasutaja õiguste kontroll
 tuleb sisselogida kasutajana directorKarel. Connect--> Database Engine
 
 saab tabeli sisu näha ja sisestada uus kiri.
-<img width="727" height="661" alt="{2DF2924F-B267-49BF-911D-21BFF444672C}" src="https://github.com/user-attachments/assets/7e140af6-43cc-43e9-8cb3-840238774d91" />
+<img width="374" height="634" alt="{329F39A4-A5F8-4405-9E0E-23B75D7A0A5A}" src="https://github.com/user-attachments/assets/351e5a59-d24c-4dc2-b4ad-16f3f578c4ae" />
+
 
 kontrollime tegevus, mis ei ole lubatud kasutajale, näiteks tabeli loomine.
 <img width="535" height="124" alt="{018F2C24-33F6-4CDF-8604-D1147AFCABE2}" src="https://github.com/user-attachments/assets/4ba6aa78-c210-45a3-912e-dd5b72288512" />
@@ -80,6 +81,7 @@ DENY INSERT ON puhkus TO directorKarel;
 
 
 Käsk Tähendus SELECT Lugemine INSERT Lisamine UPDATE Muutmine DELETE Kustutamine
-<img width="598" height="359" alt="{D02D71F4-29D1-481D-84B3-033920C8BBD6}" src="https://github.com/user-attachments/assets/704a9a49-8820-4e3c-9578-136592d9cf06" />
+<img width="526" height="575" alt="{B375F0DB-9360-4B8C-83F2-F329148B4C16}" src="https://github.com/user-attachments/assets/9862648d-64e5-4f6e-885a-3216d4bc1ae1" />
+
 
 
