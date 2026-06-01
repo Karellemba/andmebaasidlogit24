@@ -18,7 +18,9 @@ CREATE TABLE Opilased (
     opilane_id INT PRIMARY KEY,
     nimi VARCHAR(50)
 );
+
 ```
+<img width="696" height="493" alt="{59F9EC9D-3319-4643-958C-4DBC368E8D59}" src="https://github.com/user-attachments/assets/f8a0788d-7d4c-49a2-b575-4553f1f6e864" />
 
 ---
 
@@ -46,7 +48,10 @@ CREATE TABLE Registreerimine (
     kursus_id INT,
     FOREIGN KEY (kursus_id) REFERENCES Kursused(kursus_id)
 );
+
 ```
+<img width="583" height="468" alt="{9B92FA5F-6DC3-4DD1-BE52-3491FA02782D}" src="https://github.com/user-attachments/assets/5041254f-9d2e-4c9c-8c59-1cf3294c44af" />
+<img width="423" height="471" alt="{302C7E72-012C-4C52-98D0-86F0EBEAE3B9}" src="https://github.com/user-attachments/assets/2a69e3dc-96ae-48c6-9a59-8a6570c72436" />
 
 ---
 
@@ -65,9 +70,11 @@ Compound Key erineb Composite Key-st selle poolest, et kõik väljad on ka Forei
 
 ```sql
 CREATE TABLE Opetajad (
-    email VARCHAR(100) UNIQUE
+  email VARCHAR(100) UNIQUE
 );
+
 ```
+<img width="510" height="428" alt="{5D8B7BF2-0EDB-427E-BD26-C083E8955554}" src="https://github.com/user-attachments/assets/914a9e9f-16ba-4010-9d08-255dbef3c6c1" />
 
 ---
 
@@ -88,7 +95,9 @@ Erinevalt composite key-st koosneb ainult ühest väljast.
 CREATE TABLE Raamatud (
     ISBN VARCHAR(20) PRIMARY KEY
 );
+
 ```
+<img width="353" height="572" alt="{4918A59E-136E-40B9-9683-8AFBE3A1050A}" src="https://github.com/user-attachments/assets/38957ed2-6886-47f0-85d6-896c8165ea7d" />
 
 ---
 
@@ -112,6 +121,7 @@ CREATE TABLE Tellimused (
     PRIMARY KEY (klient_id, toode_id)
 );
 ```
+<img width="408" height="359" alt="{F31105FF-73E5-4A04-9EEA-A52C64AB477C}" src="https://github.com/user-attachments/assets/7845b770-9633-441b-8fd8-44bdb109742c" />
 
 ---
 
@@ -137,6 +147,7 @@ CREATE TABLE OpilaneKursus (
     FOREIGN KEY (kursus_id) REFERENCES Kursused(kursus_id)
 );
 ```
+<img width="572" height="483" alt="{5A526B39-7A73-4337-9C1E-455F5B80D1D1}" src="https://github.com/user-attachments/assets/78bcdc78-6129-4fc6-885a-561e00315e07" />
 
 ---
 
@@ -197,6 +208,7 @@ CREATE TABLE Kasutajad (
     email VARCHAR(100) UNIQUE
 );
 ```
+<img width="456" height="350" alt="{B373DF62-939C-4F03-9D26-C50199F0B3BE}" src="https://github.com/user-attachments/assets/ab104f55-7e6e-411a-a61a-4e8cd2dd343c" />
 
 ---
 
@@ -205,13 +217,7 @@ https://www.w3schools.com/sql/
 [https://www.postgresql.org/docs/current/ddl-constraints.html?
  Õppematerjalid (tunnimaterjalid)
 
- <img width="1751" height="773" alt="image" src="https://github.com/user-attachments/assets/498c889e-a065-4687-8cf7-cecafe66ef07" />
-<img width="1625" height="714" alt="image" src="https://github.com/user-attachments/assets/876d4869-fed1-4f01-b383-6acba84e969f" />
-<img width="1671" height="680" alt="image" src="https://github.com/user-attachments/assets/ee312ed6-7d78-43b9-985c-925c6fb16269" />
-<img width="1663" height="720" alt="image" src="https://github.com/user-attachments/assets/52e575c9-65a3-4509-8acf-ce9864d1868e" /><img width="1583" height="693" alt="image" src="https://github.com/user-attachments/assets/36553f57-4a82-4f34-b260-8fc7403d1aa5" />
-<img width="1735" height="740" alt="image" src="https://github.com/user-attachments/assets/daeff742-d5d4-4384-a629-df7a4451270d" />
-<img width="1470" height="825" alt="image" src="https://github.com/user-attachments/assets/6bdb46d9-7e43-46e3-bb85-94af2e14ce46" />
-<img width="1408" height="611" alt="image" src="https://github.com/user-attachments/assets/1e69ed7d-2aa1-438c-9aef-35d5b51c697f" />
+
 
 
 
