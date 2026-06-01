@@ -53,9 +53,11 @@ Kasutaja õiguste kontroll
 tuleb sisselogida kasutajana directorKarel. Connect--> Database Engine
 
 saab tabeli sisu näha ja sisestada uus kiri.
-<img width="580" height="287" alt="{A70AF0D4-93DE-4879-ABC6-95705B141DA5}" src="https://github.com/user-attachments/assets/4986bd6b-0389-4501-a90c-1b3a1875d9e4" />
+<img width="727" height="661" alt="{2DF2924F-B267-49BF-911D-21BFF444672C}" src="https://github.com/user-attachments/assets/7e140af6-43cc-43e9-8cb3-840238774d91" />
+
 kontrollime tegevus, mis ei ole lubatud kasutajale, näiteks tabeli loomine.
-<img width="608" height="336" alt="{80476606-C4BF-45E6-9C4D-8EFAEB5965E6}" src="https://github.com/user-attachments/assets/a530668f-5909-4499-b815-c9600651f758" />
+<img width="535" height="124" alt="{018F2C24-33F6-4CDF-8604-D1147AFCABE2}" src="https://github.com/user-attachments/assets/4ba6aa78-c210-45a3-912e-dd5b72288512" />
+
 SQL Server Authentication Mode muutmine Kui ilmub viga: Error 18456, siis on tavaliselt lubatud ainult Windows Authentication. Lahendus Server → Properties Security Vali: SQL Server and Windows Authentication mode GRANT käsud õiguste jagamiseks GRANT käsuga antakse kasutajale õigused.
 --GRANT - õiguste määramine
 --DENY - õiguste keelamine
@@ -70,12 +72,14 @@ SQL Server Authentication Mode muutmine Kui ilmub viga: Error 18456, siis on tav
 GRANT DELETE ON puhkus TO directorKarel;
 GRANT UPDATE ON puhkus TO directorKarel;
 GRANT SELECT ON puhkus TO directorKarel;
+<img width="1030" height="508" alt="{CB05DA7F-E2C1-404C-A93A-61CD18DA01C2}" src="https://github.com/user-attachments/assets/1e7713d3-8b60-4a52-8bf7-19f626782f47" />
 
 --keelame INSERT
 DENY INSERT ON puhkus TO directorKarel;
+<img width="764" height="677" alt="{947E6E2E-89F2-4A9C-A59A-7DB4ABF2485F}" src="https://github.com/user-attachments/assets/8c663a58-ec00-406a-aea2-ea2f170e71b3" />
 
-<img width="556" height="418" alt="{77B17C36-21D0-4C5E-A2B6-A8CFB795DFDA}" src="https://github.com/user-attachments/assets/4ef52b1e-bc07-429d-95b0-26bc8991c33c" />
 
 Käsk Tähendus SELECT Lugemine INSERT Lisamine UPDATE Muutmine DELETE Kustutamine
-<img width="631" height="447" alt="{575E1BB4-58B1-4540-8980-175C26E31BE9}" src="https://github.com/user-attachments/assets/94b1c030-8c3c-4fdd-9bc8-20f10d3fe335" />
+<img width="598" height="359" alt="{D02D71F4-29D1-481D-84B3-033920C8BBD6}" src="https://github.com/user-attachments/assets/704a9a49-8820-4e3c-9578-136592d9cf06" />
+
 
