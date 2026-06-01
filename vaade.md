@@ -1,3 +1,7 @@
+
+ | [küsimused](küsimused.md) | [KasutajaloomineXamppis](kasutajaloomineXamppis.md) | [trigger](trigger.md) | [keys](keys.md) | [kasutajaloomineSQL](kasutajaloomineSQL.md) | [vaade](vaade.md)
+
+
 ```SQL
 CREATE VIEW vw_Puhkused AS
 SELECT
