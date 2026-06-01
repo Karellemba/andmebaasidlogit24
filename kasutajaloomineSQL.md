@@ -55,10 +55,6 @@ tuleb sisselogida kasutajana directorKarel. Connect--> Database Engine
 saab tabeli sisu näha ja sisestada uus kiri.
 <img width="374" height="634" alt="{329F39A4-A5F8-4405-9E0E-23B75D7A0A5A}" src="https://github.com/user-attachments/assets/351e5a59-d24c-4dc2-b4ad-16f3f578c4ae" />
 
-
-kontrollime tegevus, mis ei ole lubatud kasutajale, näiteks tabeli loomine.
-<img width="535" height="124" alt="{018F2C24-33F6-4CDF-8604-D1147AFCABE2}" src="https://github.com/user-attachments/assets/4ba6aa78-c210-45a3-912e-dd5b72288512" />
-
 SQL Server Authentication Mode muutmine Kui ilmub viga: Error 18456, siis on tavaliselt lubatud ainult Windows Authentication. Lahendus Server → Properties Security Vali: SQL Server and Windows Authentication mode GRANT käsud õiguste jagamiseks GRANT käsuga antakse kasutajale õigused.
 --GRANT - õiguste määramine
 --DENY - õiguste keelamine
